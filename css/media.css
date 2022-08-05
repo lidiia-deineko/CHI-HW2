@@ -1,0 +1,16 @@
+@media (max-width: 950px) {
+   
+    .navbar ul{
+        /* background-color: red; */
+     
+        display: none;
+    }
+
+   
+
+    .header-btn_media {
+        display: block;
+    }
+
+    
+}
