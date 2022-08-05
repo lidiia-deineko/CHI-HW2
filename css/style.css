@@ -168,7 +168,6 @@ body{
 .post-items{
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .post-right{
