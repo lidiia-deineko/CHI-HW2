@@ -1,0 +1,25 @@
+@media (max-width: 950px) {
+    .tags{
+        margin-top: 90px;
+    }
+
+    .tags-input {
+        width: 500px;
+    }
+}
+
+@media (max-width: 700px) {
+    .tags{
+        margin-top: 80px;
+    }
+    .tags-input {
+        width: 300px;
+        padding: 5px 0 5px 10;
+    }
+}
+
+@media (max-width: 300px) {
+    .tags{
+        margin-top: 80px;
+    }  
+}
