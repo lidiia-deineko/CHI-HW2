@@ -71,3 +71,65 @@ body{
     display: flex;
     align-items: center;
 }
+
+
+/* post */
+
+.post{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 592px;
+    position: relative;
+}
+
+
+.post-content{
+    background-color: #ffffff;
+    max-width: 509px;
+    padding: 76px 40px 96px 39px;
+}
+
+.post-left{
+    left: 45px;
+    position: absolute;
+}
+
+.post-tag{
+    font-size: 20px;
+    line-height: 27px;
+    text-transform: uppercase;
+}
+
+.post-title{
+    font-family: 'Libre Baskerville';
+    font-weight: 700;
+    font-size: 33px;
+    line-height: 41px;
+    margin-bottom: 12px;
+}
+
+.post-meta{
+    line-height: 22px;
+    color: rgba(28, 28, 28, 0.5);    
+}
+
+.post-meta:not(:last-child){
+    padding-right: 22px;
+}
+
+.post-meta__content{
+    position: relative;
+}
+
+.post-meta__content::before{
+    position: absolute;
+    content: ".";
+    bottom: 5px;
+    left: -13px;
+}
+
+.post-text{
+    line-height: 24px;
+    margin-top: 14px;
+}
