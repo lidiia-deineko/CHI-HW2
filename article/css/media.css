@@ -62,7 +62,10 @@
 
     .btn-img{
         width: 100px;
+        margin-bottom: -3px;
+
     }
+    
 }
 
 @media (max-width: 650px){
@@ -74,6 +77,11 @@
     .about-author-img{
         width: 160px;
     }
+
+    .btn-img{
+    margin-bottom: -3px;
+}
+
 }
 
 @media (max-width: 550px) {

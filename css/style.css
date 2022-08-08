@@ -118,7 +118,8 @@ body{
 
 .mobile-nav-input{
     background-position: left  center;
-    padding: 0 0 0 35px;
+    padding: 0 15px 0 35px;
+    width: 150px;
 }
 
 .hidden{
