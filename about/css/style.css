@@ -13,7 +13,7 @@
 }
 
 .top-content{
-    font-family: 'Libre Baskerville';
+    font-family: 'Libre Baskerville', serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 30px;
@@ -65,7 +65,7 @@
 }
 
 .article-item-link{
-    font-family: 'Libre Baskerville';
+    font-family: 'Libre Baskerville', serif;
     font-size: 42px;
     line-height: 52px;
     color: #ffffff;
@@ -129,7 +129,7 @@
 }
 
 .buttom-title{
-    font-family: 'Libre Baskerville';
+    font-family: 'Libre Baskerville', serif;
     font-size: 42px;
     line-height: 52px;
     color: #1C1C1C;
@@ -165,7 +165,7 @@ footer{
 }
 
 .footer-title{
-    font-family: 'Libre Baskerville';
+    font-family: 'Libre Baskerville', serif;
     font-size: 33px;
     line-height: 41px;
     margin-bottom: 17px;

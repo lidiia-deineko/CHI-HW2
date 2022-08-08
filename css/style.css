@@ -2,7 +2,7 @@ body{
     color: #000000;
     font-size: 16px;
     font-weight: 400;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
 }
 
 .container{
@@ -37,7 +37,7 @@ body{
     font-weight: 700;
     font-size: 20px;
     line-height: 25px;
-    font-family: 'Libre Baskerville';
+    font-family: 'Libre Baskerville', serif;
     padding-left: 31px;
 }
 
@@ -61,7 +61,7 @@ body{
     border: 2px solid #1C1C1C;
     border-radius: 10px;
     background-color: #ffffff;
-    font-family: 'Libre Baskerville';
+    font-family: 'Libre Baskerville', serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 25px;
@@ -155,7 +155,7 @@ body{
 }
 
 .post-title{
-    font-family: 'Libre Baskerville';
+    font-family: 'Libre Baskerville', serif;
     font-weight: 700;
     font-size: 33px;
     line-height: 41px;
