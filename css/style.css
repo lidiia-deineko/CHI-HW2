@@ -100,6 +100,8 @@ body{
     z-index: 100;
     right: 0;
     transition: all 0.3s;
+
+    right: -100%;
 }
 
 .mobile-nav-items{
@@ -116,10 +118,11 @@ body{
 
 .mobile-nav-input{
     background-position: left  center;
+    padding: 0 0 0 35px;
 }
 
 .hidden{
-    transform: translate(100%);
+    right: 0;
 }
 
 .no-scroll{
