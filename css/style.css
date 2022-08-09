@@ -292,7 +292,7 @@ body{
 
 /* post-left__animated */
 
-/* .post-left__animated{
+.post-left__animated{
     animation-duration: 3s;
     animation-name: move-right;
 }
@@ -348,7 +348,7 @@ body{
         right: 45px;
         opacity: 1;
     }
-} */
+}
 
 /* sticky header */
 

@@ -31,17 +31,23 @@
 }
 
 .article-list::after{
-    content: url(/about/images/v-line.svg);
+    content: "";
     position: absolute;
+    background-color: #ffffff;
     bottom: -5px;
     left: 160px;
+    width: 8px;
+    height: 70%;
 }
 
 .article-list::before{
-    content: url(/about/images/v-line.svg);
+    content: "";
     position: absolute;
+    background-color: #ffffff;
     top: 0px;
     right: 160px;
+    width: 8px;
+    height: 70%;
 }
 
 .wrapper{
