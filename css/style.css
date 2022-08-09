@@ -270,3 +270,107 @@ body{
     height: 100%;
     padding-bottom: 50px;
 }
+
+
+/* extra tasks */
+
+/* post-left__animated */
+
+.post-left__animated{
+    animation-duration: 3s;
+    animation-name: move-right;
+}
+
+@keyframes move-right{
+    0% {
+        left: -100%;
+        opacity: 0;
+    }
+
+    25%{
+        opacity: 0.25;
+    }
+
+    50%{
+        opacity: 0.5;
+    }
+
+    75%{
+        opacity: 0.75;
+    }
+
+    100%{
+        left: 45px;
+        opacity: 1;
+    }
+}
+
+.post-right__animated{
+    animation-duration: 3s;
+    animation-name: move-left;
+}
+
+@keyframes move-left{
+    0% {
+        right: -100%;
+        opacity: 0;
+    }
+
+    25%{
+        opacity: 0.25;
+    }
+
+    50%{
+        opacity: 0.5;
+    }
+
+    75%{
+        opacity: 0.75;
+    }
+
+    100%{
+        right: 45px;
+        opacity: 1;
+    }
+}
+
+/* sticky header */
+
+.header{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: #ffffff;
+}
+
+.shadow{
+     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+
+/* drop-menu */
+
+.drop-menu{
+    display: none;
+}
+
+.drop-menu-wrapper{
+    background-color: #ffffff88;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    padding: 15px 15px 15px 0;
+}
+
+.navbar-item:hover .drop-menu{
+    display: block;
+}
+
+.drop-menu-item :hover{
+    color: rgb(85, 81, 81);
+}
+
+.drop-menu-item{
+    margin-bottom: 15px;
+}
+

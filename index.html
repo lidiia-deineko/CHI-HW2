@@ -15,7 +15,7 @@
 
 </head>
   <body>
-    <header>
+    <header class="header">
       <nav class="navbar">
         <div class="navbar-container container">
           <div class="navbar-logo">
@@ -26,7 +26,18 @@
           <ul class="navbar-left">
             <li class="navbar-item"><a class="navbar-link" href="/index.html">Home</a></li>
             <li class="navbar-item"><a class="navbar-link" href="/tags/index.html">Tags</a></li>
-            <li class="navbar-item"><a class="navbar-link" href="/about/index.html">About</a></li>
+            <li class="navbar-item"><a class="navbar-link" href="/about/index.html">About</a>
+              <div class="drop-menu">
+                <ul class="drop-menu-wrapper">
+                  <li class="drop-menu-item"><a class="drop-menu-link" href="">
+                    About company
+                  </a></li>
+                  <li class="drop-menu-item"><a class="drop-menu-link" href="">
+                    Contacts
+                  </a></li>
+                </ul>
+              </div>
+            </li>
           </ul>
           <ul class="navbar-right">
             <li class="navbar-item">
@@ -62,7 +73,7 @@
     <main>
       <div class="container">
         <section class="post" style="background-image: url(images/article_img_top.png);">
-          <article class="post-content post-left">
+          <article class="post-content post-left post-left__animated">
             <span class="post-tag">FEATURED ARTICLE</span>
               <h2 class="post-title">
                 <a class="post-link" href="/article/index.html">

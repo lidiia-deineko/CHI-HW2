@@ -106,3 +106,23 @@
     }
 
 }
+
+@media (max-width: 450px) {
+    .post-left{
+        max-width: 350px;
+    }
+
+    .post-right{
+        max-width: 350px;
+    }
+}
+
+@media (max-width: 360px) {
+    .post-left{
+        max-width: 280px;
+    }
+
+    .post-right{
+        max-width: 280px;
+    }
+}
