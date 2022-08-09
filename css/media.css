@@ -22,8 +22,12 @@
         align-items: flex-start;
     }
 
-    .post-meta__circle__media{
-        display: none;
+    .post-meta__media{
+        margin-left: 0;
+    }
+
+    .post-meta__media::before{
+        content: none;
     }
 
     .post-meta{
@@ -97,8 +101,12 @@
         align-items: flex-start;
     }
 
-    .post-meta__circle{
-        display: none;
+    .post-meta__content::before{
+        content: none;
+    }
+
+    .post-meta__content{
+        margin-left: 0px;
     }
 
     .post-content img{

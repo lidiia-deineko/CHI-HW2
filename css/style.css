@@ -176,14 +176,30 @@ body{
     color: rgba(28, 28, 28, 0.5);    
 }
 
-.post-meta__circle{
+.post-meta__content{
+    position: relative;
+    margin-left: 20px;
+}
+
+.post-meta__content::before{
+    content: "";
+    width: 3px;
+    height: 3px;
+    border-radius: 1.5px;
+    background: rgba(28, 28, 28, 0.5);
+    position: absolute;
+    left: -10px;
+    top: 10px;
+}
+
+/* .post-meta__circle{
     width: 3px;
     height: 3px;
     border-radius: 1.5px;
     display: inline-block;
     background: rgba(28, 28, 28, 0.5);
     margin: 0 10px;
-}
+} */
 
 .post-text{
     line-height: 24px;
@@ -276,7 +292,7 @@ body{
 
 /* post-left__animated */
 
-.post-left__animated{
+/* .post-left__animated{
     animation-duration: 3s;
     animation-name: move-right;
 }
@@ -332,7 +348,7 @@ body{
         right: 45px;
         opacity: 1;
     }
-}
+} */
 
 /* sticky header */
 
