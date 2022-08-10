@@ -1,0 +1,114 @@
+/* .post{
+    position: static;
+} */
+
+.post{
+    margin-bottom: 54px;
+}
+
+.post-link{
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 52px;
+    display: block;
+    text-align: center;
+    margin-bottom: 17px;
+}
+
+.post-content {
+    max-width: 652px;
+    padding: 0px;
+    margin: 0 auto;
+    position: static;
+}
+
+.post-meta-wrapper{
+    justify-content: center;
+}
+
+.post-tags-items{
+    display: flex;
+    font-size: 16px;
+    line-height: 22px;
+    color: #28282880;
+    justify-content: center;
+    margin-top: 13px;
+    margin-bottom: 26px;
+}
+
+/* about-author */
+
+.about-author{
+    margin-top: 72px;
+    margin-bottom: 163px;
+}
+
+.about{
+    font-size: 20px;
+    line-height: 27px;
+    color: #28282880;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+
+.about-author-wrapper{
+    display: flex;
+}
+
+.about-author-img{
+    margin-right: 37px;
+}
+
+.about-author-title{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 33px;
+    line-height: 41px;
+    color: #1C1C1C;
+}
+
+.about-author-tag{
+    font-size: 16px;
+    line-height: 22px;
+    color: #28282880;
+    margin-bottom: 13px;
+}
+
+.about-author-text{
+    font-size: 16px;
+    line-height: 22px;
+    color: #1C1C1C;
+}
+
+/* footer */
+
+.footer-wrapper{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.back-btn, .next-btn{
+    display: flex;
+    align-items: center; 
+}
+
+.link{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.btn-link__next{
+    margin-left: 32px;
+}
+
+.btn-link__back{
+    margin-right: 32px;
+}
+
+.btn-img{
+    margin-bottom: -3px;
+}
+

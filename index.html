@@ -7,12 +7,287 @@
   <title>Document</title>
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
-
+  <link rel="stylesheet" href="css/media.css">
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 
   <script src="/js/main.js"></script>
 
 </head>
   <body>
+    <header class="header">
+      <nav class="navbar">
+        <div class="navbar-container container">
+          <div class="navbar-logo">
+            <a href="/index.html">
+              <img src="/images/Logo.svg" alt="Nuntium Logo">
+            </a>
+          </div>
+          <ul class="navbar-left">
+            <li class="navbar-item"><a class="navbar-link" href="/index.html">Home</a></li>
+            <li class="navbar-item"><a class="navbar-link" href="/tags/index.html">Tags</a></li>
+            <li class="navbar-item"><a class="navbar-link" href="/about/index.html">About</a>
+              <div class="drop-menu">
+                <ul class="drop-menu-wrapper">
+                  <li class="drop-menu-item"><a class="drop-menu-link" href="">
+                    About company
+                  </a></li>
+                  <li class="drop-menu-item"><a class="drop-menu-link" href="">
+                    Contacts
+                  </a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+          <ul class="navbar-right">
+            <li class="navbar-item">
+              <input class="navbar-input" type="text">
+            </li>
+            <li class="navbar-item">
+              <button class="navbar-btn">Login</button>
+            </li>
+          </ul>
+          <div class="header-btn_media">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+      </nav>
+    </header>
 
+    <div class="mobile-nav" id="menu">
+      <ul class="mobile-nav-items">
+        <li class="navbar-item"><a class="navbar-link" href="/index.html">Home</a></li>
+        <li class="navbar-item"><a class="navbar-link" href="/tags/index.html">Tags</a></li>
+        <li class="navbar-item"><a class="navbar-link" href="/about/index.html">About</a></li>
+        <li class="navbar-item">
+          <input class="navbar-input mobile-nav-input" type="text">
+        </li>
+        <li class="navbar-item">
+          <button class="navbar-btn">Login</button>
+        </li>
+      </ul>
+    </div>
+
+    <main>
+      <div class="container">
+        <section class="post" style="background-image: url(images/article_img_top.png);">
+          <article class="post-content post-left post-left__animated">
+            <span class="post-tag">FEATURED ARTICLE</span>
+              <h2 class="post-title">
+                <a class="post-link" href="/article/index.html">
+                  World’s Most Dangerous Technology Ever Made.
+                </a>
+              </h2>
+             <div class="post-meta-wrapper">
+              <span class="post-meta">Ralph Hawkins</span>
+              <span class="post-meta post-meta__content">May 7, 2019 (10 mins read)</span>
+             </div>
+              <p class="post-text">Proident aliquip velit qui commodo officia qui consectetur dolor ullamco aliquip elit incididunt. 
+                Ea minim ex consectetur excepteur. Ex laborum nostrud mollit sint consectetur Lorem amet aliqua do enim. Commodo duis dolor anim excepteur. 
+                In aliquip mollit nulla consequat velit magna.</p>
+          </article>
+        </section>
+        <section class="posts">
+          <div class="container">
+            <article class="post-main">
+              <h1 class="post-main-title"><a href="">Editor’s Picks</a></h1>
+              <div class="hr-line"></div>
+              <div class="post-items">
+                <article class="post-content post-item">
+                  <div>
+                    <img src="/images/post_img_1.png" alt="">
+                  </div>
+                  <div class="post-info">
+                    <span class="post-tag">MINIMALISM</span>
+                    <h2 class="post-title">
+                      <a class="post-link" href="">
+                        Culpa sit Laboris Exercitation ea Fugiat
+                      </a>
+                    </h2>
+                    <div class="post-meta-wrapper post-meta-wrapper__media">
+                      <span class="post-meta">Leslie Pena</span>
+                      <span class="post-meta post-meta__content post-meta__media">April 25, 2012 (6 mins read)</span>
+                     </div>
+                   <div>
+                    <p class="post-text">Incididunt occaecat et qui dolore consectetur magna. 
+                      Lorem veniam ut et labore consequat ut ex sunt. Ut et nostrud aliquip do anim proident ad nulla consectetur eu aute ex anim mollit. Anim aute exercitation nisi fugiat. 
+                      Dolor velit excepteur commodo proident nulla commodo ullamco labore et esse.</p>
+                  </div>
+                </article>
+                <article class="post-content post-item">
+                  <div>
+                    <img src="/images/post_img_2.png" alt="">
+                  </div>
+                  <div class="post-info">
+                    <span class="post-tag">TECHNOLOGY</span>
+                    <h2 class="post-title">
+                      <a class="post-link" href="">
+                        Amet non Ex Officia nulla Cupidatat
+                      </a>
+                    </h2>
+                   <div>
+                   <div class="post-meta-wrapper post-meta-wrapper__media">
+                    <span class="post-meta">Jacob Henry</span>
+                    <span class="post-meta post-meta__content post-meta__media">September 27, 2017 (8 mins read)</span>
+                   </div>
+                    <p class="post-text">Sint anim Lorem aute duis Lorem incididunt. 
+                      Nulla nostrud irure id ipsum aute excepteur duis sint. Do occaecat sit dolor magna esse. Mollit incididunt cillum consectetur fugiat adipisicing dolor est id minim amet cillum esse Lorem. Deserunt non duis excepteur 
+                      aliqua duis eu reprehenderit.</p>
+                  </div>
+                </article>
+                <article class="post-content post-item">
+                  <div>
+                    <img src="/images/post_img_3.png" alt="">
+                  </div>
+                  <div class="post-info">
+                    <span class="post-tag">ARTICLE</span>
+                    <h2 class="post-title">
+                      <a class="post-link" href="">
+                        Dolor ex Tempor Cotur Culpa li
+                      </a>
+                    </h2>
+                   <div class="post-meta-wrapper post-meta-wrapper__media">
+                    <span class="post-meta">Darrell Lane</span>
+                    <span class="post-meta post-meta__content post-meta__media">May 16, 2017 (3 mins read)</span>
+                   </div>
+                    <p class="post-text">Incididunt sint nulla eu adipisicing eu reprehenderit 
+                      proident consequat est. Nisi consectetur incididunt mollit officia ut cupidatat laborum proident eu velit Lorem deserunt deserunt voluptate. Proident nostrud laborum reprehenderit 
+                      culpa irure id labore do ad do minim nisi. Incididunt ex.</p>
+                  </div>
+                </article>
+              </div>
+            </article>
+          </div>
+        </section>
+        <section class="post" style="background-image: url(images/article_img_buttom.png);">
+          <article class="post-content post-right">
+            <span class="post-tag">INTERIOR</span>
+              <h2 class="post-title">
+                <a class="post-link" href="">
+                  Laborum Ullamco Sunt id ut Sunt
+                </a>
+              </h2>
+             <div class="post-meta-wrapper">
+              <span class="post-meta">Bessie Hawkins</span>
+              <span class="post-meta post-meta__content">May 7, 2019 (10 mins read)</span>
+             </div>
+              <p class="post-text">Proident aliquip velit qui commodo officia qui consectetur 
+                dolor ullamco aliquip elit incididunt. Ea minim ex consectetur excepteur. Ex laborum nostrud mollit sint consectetur Lorem amet aliqua do enim. Commodo duis dolor anim excepteur. 
+                In aliquip mollit nulla consequat velit magna.</p>
+          </article>
+        </section>
+        <section>
+          <div class="wrapper">
+            <div class="post-items post-items-buttom">
+              <article class="post-content post-item">
+                <div>
+                  <img src="/images/post_img_4.png" alt="">
+                </div>
+                <div class="post-info">
+                  <span class="post-tag">NATURE</span>
+                  <h2 class="post-title">
+                    <a class="post-link" href="">
+                      Tempor deserunt Sunt Qui
+                    </a>
+                  </h2>
+                 <div class="post-meta-wrapper">
+                  <span class="post-meta">Connie Robertson</span>
+                  <span class="post-meta post-meta__content">November 3, 2012</span>
+                 </div>
+                  <p class="post-text">Ea qui dolor aute cupidatat ad pariatur proident. Mollit nulla tempor aute 
+                    reprehenderit ut dolore mollit nisi consequat excepteur ex officia pariatur irure.</p>
+                </div>
+              </article>
+              <article class="post-content post-item">
+                <div>
+                  <img src="/images/post_img_5.png" alt="">
+                </div>
+                <div class="post-info">
+                  <span class="post-tag">PLANTS</span>
+                  <h2 class="post-title">
+                    <a class="post-link" href="">
+                      Occaecat Anim eu Qui
+                    </a>
+                  </h2>
+                 <div class="post-meta-wrapper">
+                  <span class="post-meta">Eleanor Williamson</span>
+                  <span class="post-meta post-meta__content">September 28, 2014</span>
+                 </div>
+                  <p class="post-text">Qui ipsum consectetur ad incididunt et aliquip exercitation laboris nisi reprehenderit. 
+                    Et excepteur commodo esse enim ea aliqua officia reprehenderit.</p>
+                </div>
+              </article>
+              <article class="post-content post-item">
+                <div>
+                  <img src="/images/post_img_6.png" alt="">
+                </div>
+                <div class="post-info">
+                  <span class="post-tag">FOOD</span>
+                  <h2 class="post-title">
+                    <a class="post-link" href="">
+                      Fugiat Incididunt Voluptate Consequat
+                    </a>
+                  </h2>
+                 <div class="post-meta-wrapper">
+                  <span class="post-meta">Bessie Watson</span>
+                  <span class="post-meta post-meta__content">June 13, 2012</span>
+                 </div>
+                  <p class="post-text">Mollit ea culpa ipsum pariatur eiusmod. Irure et.</p>
+                </div>
+              </article>
+              <article class="post-content post-item">
+                <div>
+                  <img src="/images/post_img_7.png" alt="">
+                </div>
+                <div class="post-info">
+                  <span class="post-tag">COLORFUL</span>
+                  <h2 class="post-title">
+                    <a class="post-link" href="">
+                      Occaecat Anim eu Qui
+                    </a>
+                  </h2>
+                 <div class="post-meta-wrapper">
+                  <span class="post-meta">Ted Simmmons</span>
+                  <span class="post-meta post-meta__content">June 21, 2015</span>
+                 </div>
+                  <p class="post-text">Amet ipsum occaecat aliqua aute nisi laboris nostrud 
+                    culpa est do. Aliqua esse velit in excepteur esse qui voluptate 
+                    laboris adipisicing qui irure elit amet excepteur.</p>
+                </div>
+              </article>
+            </div>
+            <aside class="tags">
+              <h2 class="tags-title">tags.</h2>
+              <nav class="tags-nav">
+                <ul class="tags-items">
+                  <li class="tags-item"><a href="">Open Source</a></li>
+                  <li class="tags-item"><a href="">Technology</a></li>
+                  <li class="tags-item"><a href="">JavaScript</a></li>
+                  <li class="tags-item"><a href="">Minimalism</a></li>
+                  <li class="tags-item"><a href="">Self-help</a></li>
+                  <li class="tags-item"><a href="">Animals</a></li>
+                  <li class="tags-item"><a href="">Herbivores</a></li>
+                  <li class="tags-item"><a href="">HTML</a></li>
+                  <li class="tags-item"><a href="">CSS</a></li>
+                  <li class="tags-item"><a href="">PHP</a></li>
+                  <li class="tags-item"><a href="">Web Technologies</a></li>
+                  <li class="tags-item"><a href="">Career</a></li>
+                  <li class="tags-item"><a href="">Life</a></li>
+                  <li class="tags-item"><a href="">Spirituality</a></li>
+                  <li class="tags-item"><a href="">Food</a></li>
+                  <li class="tags-item"><a href="">Cooking</a></li>
+                  <li class="tags-item"><a href="">Sports</a></li>
+                  <li class="tags-item"><a href="">Racing</a></li>
+                  <li class="tags-item"><a href="">Mountain Hiking</a></li>
+                  <li class="tags-item"><a href="">Cruising</a></li>
+                </ul>
+              </nav>
+            </aside>
+          </div>
+        </section>
+      </div>
+    </main>
   </body>
 </html>
